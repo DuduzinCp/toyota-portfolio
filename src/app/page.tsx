@@ -1,12 +1,10 @@
 import Image from 'next/image'
-import Nav from './components/nav'
 import Main from './components/main'
 
 export default function Home() {
   return (
-    <div className="relative flex h-screen flex-col items-center overflow-hidden pt-4">
-      <div className="h-full w-[90%]">
-        <Nav />
+    <div className="flex h-screen w-full flex-col items-center pt-4">
+      <div className="flex w-[90%] justify-center">
         <Main />
       </div>
       <Image
