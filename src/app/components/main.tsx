@@ -17,10 +17,12 @@ export default function Main() {
               className="w-full opacity-40 lg:w-[88%] lg:opacity-100"
             />
             <div className="visible flex gap-4 lg:invisible">
-              <button className="btn btn-error text-white">
-                Comprar Agora
-              </button>
-              <button className="btn btn-primary">Saiba Mais</button>
+              <a href="/modelos" className="btn btn-error text-white">
+                Ver Modelos
+              </a>
+              <a href="/contato" className="btn btn-primary">
+                Contata-nos
+              </a>
             </div>
             <div className="invisible absolute right-0 top-0 -z-10 w-[400px] lg:visible">
               <Image src={BgRetangle} alt="retangle" />

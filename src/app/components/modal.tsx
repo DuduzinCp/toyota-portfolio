@@ -101,19 +101,19 @@ export default function Modal() {
                   Modelos
                 </a>
                 <a
-                  href="#"
+                  href="/financiamento"
                   className="underline-offset-0 transition-all hover:text-red-600 hover:underline hover:underline-offset-8"
                 >
                   Financiamento
                 </a>
                 <a
-                  href="#"
+                  href="/nossa-historia"
                   className="underline-offset-0 transition-all hover:text-red-600 hover:underline hover:underline-offset-8"
                 >
-                  Sobre Nós
+                  Nossa História
                 </a>
                 <a
-                  href="#"
+                  href="/contato"
                   className="underline-offset-0 transition-all hover:text-red-600 hover:underline hover:underline-offset-8"
                 >
                   Contato

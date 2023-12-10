@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 import './globals.css'
 import Nav from './components/nav'
 
@@ -23,6 +24,13 @@ export default function RootLayout({
             <Nav />
           </div>
           {children}
+          <Image
+            src="/assets/images/bg-decoration.png"
+            alt="Toyota Logo"
+            width={785}
+            height={165}
+            className="absolute left-0 top-0 -z-20 opacity-60"
+          />
         </div>
       </body>
     </html>
